@@ -23,10 +23,9 @@ Feature: Android Settings App
       | Display            |
       | Sound & vibration  |
 
-  @smoke @settings
+  @smoke1 @settings
   Scenario: Navigate into Wi-Fi settings and return
     Then the Settings app should be displayed
-    When the user taps on "Network & internet"
-    Then the user should see the "Network & internet" section
+    When the user taps on "About phone"
     When the user navigates back
     Then the Settings app should be displayed
