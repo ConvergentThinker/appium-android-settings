@@ -38,7 +38,7 @@ public class DriverManager {
 
             AndroidDriver driver = new AndroidDriver(serverUrl, options);
 
-            Thread.sleep(10000);
+        
 
             driver.manage().timeouts()
                     .implicitlyWait(Duration.ofSeconds(ConfigReader.getInt("implicit.wait")));
