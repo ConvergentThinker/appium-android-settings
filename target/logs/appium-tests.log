@@ -1,0 +1,29 @@
+2026-03-31 20:44:45.794 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Settings app launches successfully]
+2026-03-31 20:44:45.829 [main] INFO  com.appium.utils.ConfigReader - config.properties loaded successfully
+2026-03-31 20:44:45.830 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:45.831 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.401 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Settings app launches successfully]
+2026-03-31 20:44:47.516 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Navigate into About phone and return]
+2026-03-31 20:44:47.517 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.517 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.583 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Navigate into About phone and return]
+2026-03-31 20:44:47.657 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Open Network & internet section successfully]
+2026-03-31 20:44:47.658 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.658 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.694 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Open Network & internet section successfully]
+2026-03-31 20:44:47.700 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Open Apps section successfully]
+2026-03-31 20:44:47.700 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.700 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.713 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Open Apps section successfully]
+2026-03-31 20:44:47.720 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Open a settings section and return to home]
+2026-03-31 20:44:47.720 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.721 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.726 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Open a settings section and return to home]
+2026-03-31 20:44:47.733 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Open a settings section and return to home]
+2026-03-31 20:44:47.734 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.734 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.756 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Open a settings section and return to home]
+2026-03-31 20:44:47.764 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Open a settings section and return to home]
+2026-03-31 20:44:47.765 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-31 20:44:47.766 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-31 20:44:47.783 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Open a settings section and return to home]

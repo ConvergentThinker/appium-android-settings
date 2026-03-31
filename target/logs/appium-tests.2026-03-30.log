@@ -1,0 +1,9 @@
+2026-03-30 15:41:05.666 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Settings app launches successfully]
+2026-03-30 15:41:05.732 [main] INFO  com.appium.utils.ConfigReader - config.properties loaded successfully
+2026-03-30 15:41:05.732 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-30 15:41:05.735 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-30 15:41:06.381 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Settings app launches successfully]
+2026-03-30 15:41:06.409 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Navigate into Wi-Fi settings and return]
+2026-03-30 15:41:06.410 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-30 15:41:06.411 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-30 15:41:06.431 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Navigate into Wi-Fi settings and return]

@@ -1,0 +1,24 @@
+2026-03-29 21:11:33.956 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Settings app launches successfully]
+2026-03-29 21:11:33.990 [main] INFO  com.appium.utils.ConfigReader - config.properties loaded successfully
+2026-03-29 21:11:33.990 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-29 21:11:33.992 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-29 21:11:56.386 [main] INFO  com.appium.utils.DriverManager - AndroidDriver initialised successfully
+2026-03-29 21:11:56.391 [main] INFO  com.appium.steps.SettingsSteps - Step → the Android Settings app is open
+2026-03-29 21:11:56.391 [main] INFO  com.appium.steps.SettingsSteps - Settings main screen is ready
+2026-03-29 21:11:56.392 [main] INFO  com.appium.steps.SettingsSteps - Step → the Settings app should be displayed
+2026-03-29 21:12:06.492 [main] INFO  com.appium.steps.SettingsSteps - Verified: Settings main screen is displayed
+2026-03-29 21:12:06.496 [main] INFO  com.appium.steps.SettingsSteps - Step → the app title should be visible
+2026-03-29 21:12:16.741 [main] INFO  com.appium.steps.SettingsSteps - Verified: Settings title is visible
+2026-03-29 21:12:16.773 [main] INFO  com.appium.hooks.Hooks - ✔  Scenario PASSED: [Settings app launches successfully]
+2026-03-29 21:12:16.774 [main] INFO  com.appium.utils.DriverManager - Quitting AndroidDriver
+2026-03-29 21:12:17.407 [main] INFO  com.appium.hooks.Hooks - ▶  Starting scenario: [Navigate into Wi-Fi settings and return]
+2026-03-29 21:12:17.408 [main] INFO  com.appium.utils.DriverManager - Capabilities → device: bmqc4h7lmjn7ugrg, package: com.android.settings, activity: com.android.settings.Settings
+2026-03-29 21:12:17.409 [main] INFO  com.appium.utils.DriverManager - Connecting to Appium server at http://127.0.0.1:4725
+2026-03-29 21:12:22.350 [main] INFO  com.appium.utils.DriverManager - AndroidDriver initialised successfully
+2026-03-29 21:12:22.351 [main] INFO  com.appium.steps.SettingsSteps - Step → the Android Settings app is open
+2026-03-29 21:12:22.351 [main] INFO  com.appium.steps.SettingsSteps - Settings main screen is ready
+2026-03-29 21:12:22.351 [main] INFO  com.appium.steps.SettingsSteps - Step → the Settings app should be displayed
+2026-03-29 21:12:32.496 [main] INFO  com.appium.steps.SettingsSteps - Verified: Settings main screen is displayed
+2026-03-29 21:12:32.501 [main] INFO  com.appium.steps.SettingsSteps - Step → tapping on 'About phone'
+2026-03-29 21:12:53.427 [main] ERROR com.appium.hooks.Hooks - ✗  Scenario FAILED: [Navigate into Wi-Fi settings and return]
+2026-03-29 21:12:53.428 [main] INFO  com.appium.utils.DriverManager - Quitting AndroidDriver
