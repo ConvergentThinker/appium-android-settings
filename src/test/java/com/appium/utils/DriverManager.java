@@ -37,6 +37,9 @@ public class DriverManager {
             log.info("Connecting to Appium server at {}", serverUrl);
 
             AndroidDriver driver = new AndroidDriver(serverUrl, options);
+
+        
+
             driver.manage().timeouts()
                     .implicitlyWait(Duration.ofSeconds(ConfigReader.getInt("implicit.wait")));
 
@@ -62,7 +65,7 @@ public class DriverManager {
         opts.setAppPackage(ConfigReader.get("app.package"));
         opts.setAppActivity(ConfigReader.get("app.activity"));
 
-        opts.setNewCommandTimeout(Duration.ofSeconds(ConfigReader.getInt("new.command.timeout")));
+        //opts.setNewCommandTimeout(Duration.ofSeconds(ConfigReader.getInt("new.command.timeout")));
         opts.setNoReset(true);   // keep app data between sessions
 
         log.info("Capabilities → device: {}, package: {}, activity: {}",
