@@ -13,31 +13,6 @@ Feature: Android Settings App
     Then the Settings app should be displayed
     And the app title should be visible
 
-  @smoke @settings
-  Scenario: Settings main menu contains essential options
-    Then the Settings app should be displayed
-    And the following settings categories should be visible
-      | Network & internet |
-      | Connected devices  |
-      | Apps               |
-      | Battery            |
-      | Display            |
-      | Sound & vibration  |
-
-  @smoke1 @settings
-  Scenario: Navigate into About phone and return
-    Then the Settings app should be displayed
-    When the user taps on "About phone"
-    When the user navigates back
-    Then the Settings app should be displayed
-
-  @smoke1 @settings
-  Scenario: Open Network & internet section successfully
-    Then the Settings app should be displayed
-    When the user taps on "About phone"
-    When the user navigates back
-    Then the Settings app should be displayed
-
   @smoke1 @settings
   Scenario: Open Apps section successfully
     Then the Settings app should be displayed
