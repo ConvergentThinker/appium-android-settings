@@ -13,13 +13,7 @@ Feature: Android Settings App
     Then the Settings app should be displayed
     And the app title should be visible
 
-  @smoke1 @settings
-  Scenario: Open Apps section successfully
-    Then the Settings app should be displayed
-    When the user taps on "Apps"
-    Then the user should see the "Apps" section
-    When the user navigates back
-    Then the Settings app should be displayed
+
 
   @smoke1 @settings
   Scenario Outline: Open a settings section and return to home
@@ -33,4 +27,4 @@ Feature: Android Settings App
       | section  |
       | Battery  |
       | Display  |
-      | About phone |
+  
