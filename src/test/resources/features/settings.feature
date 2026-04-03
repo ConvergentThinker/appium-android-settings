@@ -13,7 +13,43 @@ Feature: Android Settings App
     Then the Settings app should be displayed
     And the app title should be visible
 
+  @smoke1 @settings
+  Scenario: Settings app launches successfully 2
+    Then the Settings app should be displayed
+    And the app title should be visible
 
+
+  @smoke1 @settings
+  Scenario: Settings app launches successfully 3
+    Then the Settings app should be displayed
+    And the app title should be visible
+
+
+      @smoke1 @settings
+  Scenario: Settings app launches successfully 4
+    Then the Settings app should be displayed
+    And the app title should be visible
+
+  @smoke1 @settings
+  Scenario: Settings app launches successfully 5
+    Then the Settings app should be displayed
+    And the app title should be visible
+
+  @smoke1 @settings
+  Scenario: Settings app launches successfully 6
+    Then the Settings app should be displayed
+    And the app title should be visible
+
+  @smoke1 @settings
+  Scenario: Settings app launches successfully 7
+    Then the Settings app should be displayed
+    And the app title should be visible
+
+
+   @smoke1 @settings
+  Scenario: Settings app launches successfully 8
+    Then the Settings app should be displayed
+    And the app title should be visible
 
   @smoke1 @settings
   Scenario Outline: Open a settings section and return to home
