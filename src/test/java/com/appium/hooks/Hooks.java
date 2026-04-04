@@ -18,6 +18,7 @@ public class Hooks {
     public void setUp(Scenario scenario) {
         log.info("▶  Starting scenario: [{}]", scenario.getName());
         DriverManager.initDriver();
+        log.info("Returned from DriverManager.initDriver(), thread={}", Thread.currentThread().getName());
     }
 
     @After(order = 0)
