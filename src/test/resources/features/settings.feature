@@ -8,7 +8,7 @@ Feature: Android Settings App
   Background:
     Given the Android Settings app is open
 
-  @smoke1 @settings
+  @smokePass @settings
   Scenario: Settings app launches successfully
     Then the Settings app should be displayed
     And the app title should be visible
