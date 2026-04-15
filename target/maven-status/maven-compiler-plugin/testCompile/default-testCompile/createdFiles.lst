@@ -1,5 +1,0 @@
-com/appium/utils/ConfigReader.class
-com/appium/hooks/Hooks.class
-com/appium/runners/TestRunner.class
-com/appium/utils/DriverManager.class
-com/appium/steps/SettingsSteps.class
