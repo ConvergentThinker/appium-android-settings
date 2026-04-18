@@ -33,7 +33,7 @@ import org.junit.runner.RunWith;
         monochrome = true,
 
         // ── Tags (override via -Dcucumber.filter.tags on CLI) ─────────────────
-        tags = "@smokePass"
+        tags = "@smoke1"
 )
 public class TestRunner {
     // This class is intentionally empty.
