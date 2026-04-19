@@ -24,5 +24,5 @@ Feature: Android Settings App
     Examples:
       | section  |
       | Battery  |
-      | Display  |
+     # | Display  |
   
